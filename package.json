@@ -1,0 +1,35 @@
+{
+  "name": "archive.org-show-total-size",
+  "version": "1.0.0",
+  "description": "UserScript to show the total size of the current archive item",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flleeppyy/archive.org-show-total-size.git"
+  },
+  "keywords": [
+    "archive",
+    "archive.org"
+  ],
+  "author": "Flleeppyy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flleeppyy/archive.org-show-total-size/issues"
+  },
+  "homepage": "https://github.com/flleeppyy/archive.org-show-total-size#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@userscripters/generate-headers": "2.7.5",
+    "eslint": "^8.5.0",
+    "lint-staged": "^12.1.3",
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.5.1",
+    "prettier-eslint": "^13.0.0"
+  },
+  "dependencies": {}
+}
